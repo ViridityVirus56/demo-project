@@ -1,0 +1,9 @@
+[project]
+name = "demo-payment-api"
+version = "0.1.0"
+description = "High-performance Payment & Webhook API"
+dependencies = [
+    "fastapi>=0.111.0",
+    "pydantic>=2.7.0",
+    "uvicorn>=0.30.0",
+]
